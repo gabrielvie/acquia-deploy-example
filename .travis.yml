@@ -1,0 +1,16 @@
+sudo: true
+language: php
+dist: xenial
+
+# Adjust the version of PHP to match your production environment.
+# Making this version number greater than the production environment can have unintended consequences
+# including a non-functional prod environment.
+php:
+  - 7.2
+
+addons:
+  ssh_known_hosts:
+    - svn-2420.devcloud.hosting.acquia.com
+
+before_install:
+  - echo "It's work! \o/"
