@@ -30,6 +30,8 @@ git:
 deploy:
   # When manually deploying a tag, also tag the source repository.
   tag_source: true
+  git:
+    failOnDirty: false
 drush:
   # You can set custom project aliases in drush/sites/*.site.yml.
   aliases:
