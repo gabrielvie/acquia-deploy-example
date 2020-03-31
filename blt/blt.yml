@@ -29,6 +29,7 @@ git:
     - 's5e7e822a7745a@svn-2420.devcloud.hosting.acquia.com:s5e7e822a7745a.git'
 deploy:
   exclude_file: '${repo.root}/blt/deploy-exclude.txt'
+  gitignore_file: '${repo.root}/blt/.gitignore'
   git:
     failOnDirty: false
 drush:
