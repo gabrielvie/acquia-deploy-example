@@ -28,8 +28,6 @@ git:
   remotes:
     - 's5e7e822a7745a@svn-2420.devcloud.hosting.acquia.com:s5e7e822a7745a.git'
 deploy:
-  # When manually deploying a tag, also tag the source repository.
-  tag_source: true
   git:
     failOnDirty: false
 drush:
